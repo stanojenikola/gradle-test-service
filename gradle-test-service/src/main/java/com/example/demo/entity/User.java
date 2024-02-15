@@ -25,7 +25,6 @@ public class User {
         @NotNull
         @NotBlank
         @Column(unique = true) // Ensure uniqueness at the database level
-
         private String name;
 
         // Assuming you want to store jobs as a JSON string in the database
